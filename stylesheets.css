@@ -1,0 +1,173 @@
+.header {
+    background: rgb(207, 218, 242);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 75px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    width: 100%;
+  }
+
+.info { 
+    float: left;  
+    text-align: none;
+    background-color: rgb(255, 255, 255); 
+    color: black;
+    border: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+
+    width: 300px;
+    height: 300px;
+    background-color: rgba(244, 134, 134, 0.433);
+    border-radius: 100%;
+}
+
+.box2 {
+    position: absolute;
+    top: 40%;
+    left: 90%;
+    transform: translate(-30%, -30%);
+
+    width: 150px;
+    height: 150px;
+    background-color: rgba(223, 159, 240, 0.317);
+    border-radius: 100%;
+}
+
+.box3 {
+    position: absolute;
+    top: 63%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+
+    width: 200px;
+    height: 200px;
+    background-color: rgba(244, 185, 134, 0.817);
+    border-radius: 100%;
+}
+
+.para {
+    width: 50%;
+    display: inline-block;
+    margin-top: 150px;
+    border-left: 2px solid #69696a;
+    padding-left: 20px;
+    float: left;
+    margin-left:  18px;
+
+}
+
+.logo {
+    float: left;
+}
+
+.nav_bar {
+    float: right;
+    
+    padding: 10px 25px;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.nav1 {
+    
+    padding: 10px 25px;
+    
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.nav2 {
+    
+    padding: 10px 25px;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.nav2 {
+    background: black;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.nav3 {
+    background: black;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.nav4 {
+    background: black;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.parent_container {
+    width: 100%;
+}
+
+.nav5_active {
+    background: black;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.button {
+    text-align: center;
+    background: black;
+    padding: 0 50px 0;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 25px;
+}
+
+/*
+.button {
+    text-align: center;
+    background: black;
+    color: white;
+    border-radius: 200px;
+    text-decoration: none;
+    font-size: 25px;
+}
+*/
